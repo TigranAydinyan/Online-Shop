@@ -1,0 +1,190 @@
+.container{
+    margin-top: 84px;
+}
+.BgImg{
+    position: relative;
+    padding: 60px 0 92px 0;
+}
+.backImg{
+    background-image: url(../../assets/images/breadcumb.jpg);
+    background-size: cover;
+    opacity: 0.1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 0 92px 0;
+}
+.title{
+    opacity: 1 !important;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);   
+    font-weight: 700; 
+}
+.check{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: white;
+    justify-content: space-between;
+}
+.details{
+    width: 50%;
+}
+.h5{
+    font-weight: 700;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.label{
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.span{
+    color: blue;
+}
+.input{
+    padding: 8px 4px;
+    border: 1px solid #ebebeb;
+}
+.input:focus{
+    border:3px solid #80bdff;
+    outline: none;
+}
+.selectBox{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 2px;
+}
+.ckeckbox{
+    position: relative;
+    margin-top: 8px;
+}
+.checkboxLabel{
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.checkboxInput{
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    left: 12px;
+}
+.checkboxInput:checked{
+    z-index: 3;
+}
+.checkSpan{
+    width: 15px;
+    height: 15px;
+    background-color: #dee2e6;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 7px;
+    z-index: 2;
+    position: absolute;
+    left: 11px;
+    top: 0;
+}
+.labelSpan{
+    position: absolute;
+    top: 0;
+    left: 32px
+}
+.order{
+    width: 40%;
+    border: 2px solid #ebebeb;
+    padding: 40px;
+    height: 100%;
+}
+.text{
+    color: #787878;
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.orderDetailsForm{
+    padding: 0;
+}
+.orderDetailsForm li{
+    list-style-type: none;
+    border-bottom:  2px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 11px;
+    font-weight: 700;
+}
+.checkCards{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.cardDiv{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.round{
+    width: 12px;
+    height: 12px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.cardNameSpace{
+    padding-top: 7px;
+    margin-left: 18px;
+  
+}
+.cardName{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+.card{
+    position: relative;
+}
+.loremDivVisible{
+    margin-top: 30px;
+    visibility: visible;
+}
+.loremDiv{
+   visibility: hidden;
+   position: absolute;
+}
+.lorem{
+    color: #9f9f9f;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.btn{
+    margin-top: 30px;
+    color: white;
+    background-color: #0315ff;
+    border: none;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 40px;
+    height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    transition: background-color 0.5s;
+}
+.btn:hover{
+    background-color: #dc0345;
+}

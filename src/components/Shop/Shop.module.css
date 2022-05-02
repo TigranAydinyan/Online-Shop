@@ -1,0 +1,175 @@
+.container{
+    margin-top: 84px;
+}
+.BgImg{
+    position: relative;
+    padding: 60px 0 92px 0;
+}
+.backImg{
+    background-image: url(../../assets/images/breadcumb.jpg);
+    background-size: cover;
+    opacity: 0.1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 0 92px 0;
+}
+.title{
+    opacity: 1 !important;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);   
+    font-weight: 700; 
+    letter-spacing: 2px;
+}
+.content{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.item1{
+    width: 15%;
+}
+.categories{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+}
+.categoriesType{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.categoriesType  li{
+    list-style-type: none;
+    text-transform: capitalize;
+    color: #787878;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.categoriesType li:hover{
+    color: rgb(45, 45, 236);
+}
+.category{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+}
+.item2{
+    width: 75%;
+}
+.imgDiv{
+    width: 100%;
+    height: 325px;
+    position: relative;
+}
+.productImg{
+    width: 100%;
+    height: 100%;
+}
+.imgHover{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.imgDiv:hover .imgHover{
+    visibility: visible;
+    opacity: 1;
+}
+.iconDiv{
+    position: absolute;
+    z-index: 11;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 26px;
+    color: #e9e8e6;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.imgDiv:hover .iconDiv{
+    visibility: visible;
+    opacity: 1;
+}
+.addBtn{
+    position: absolute;
+    visibility: hidden;
+    bottom: 17px;
+    z-index: 20;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    background-color: blue;
+    padding: 17px 0px;
+    width: 80%;
+    font-size: 12px;
+    opacity: 0;
+    transition-property: background-color, opacity;
+    transition-duration: 0.5s;
+}
+.addBtn:hover{
+    background-color: rgb(255, 0, 85);
+}
+.imgDiv:hover .addBtn{
+    visibility: visible;
+    opacity: 1;
+}
+.forSale{
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    background-color: rgb(220, 3, 69);
+    width: 44px;
+    text-align: center;
+    padding-bottom: 2px;
+    z-index: 15;
+}
+.sale{
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.brandName{
+    color: grey;
+    font-weight: 500;
+    font-size: 13px;
+}
+.description{
+    color: #2c2b2b;
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 18px;
+}
+.old{
+    color: #b9b4b4;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.new{
+    font-weight: 700;
+    font-size: 14px;
+}

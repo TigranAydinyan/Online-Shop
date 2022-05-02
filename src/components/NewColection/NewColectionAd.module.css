@@ -1,0 +1,33 @@
+.main{
+    margin-top: 84px;
+}
+.NewColectionAd{
+    background-image: url("../../assets/images/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.p{
+    color: grey;
+    font-weight: 700;
+    font-size: 18px;
+}
+.title{
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+}
+.button{
+    border: none;
+    padding: 15px 45px;
+    background-color: #0315ff;
+    font-size: 14px;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    margin-top: 50px;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.button:hover{
+    background-color : rgb(187, 7, 118)
+}

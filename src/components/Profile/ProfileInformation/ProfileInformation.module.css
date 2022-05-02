@@ -1,0 +1,59 @@
+.userName{
+    font-size: 2.2rem;
+}
+
+.avatarDiv{
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(231 224 224);
+    border-radius: 50%;
+    padding: 4px;
+    width: fit-content;
+}
+.avatarImg{
+    border-radius: 50%;
+}
+.emptyDiv{
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+}
+.activity{
+    border:  1px solid rgb(204, 201, 201);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.item{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+}
+.item1{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    display: flex;
+    justify-content: space-between;
+}
+.products{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.productsCount{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.social{
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.media{
+    background-color: rgba(212, 204, 204, 0.466);
+    border-bottom: 1px solid rgb(204, 201, 201);
+    padding: 10px 15px;
+    font-size: 14px;
+}
